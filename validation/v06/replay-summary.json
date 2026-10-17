@@ -1,0 +1,73 @@
+{
+  "alignment_status": "unconfirmed",
+  "claim_scope": "exploratory replay only; not a validated physiological accuracy result",
+  "processed_frames": 3600,
+  "valid_signal_frames": 3210,
+  "valid_signal_fraction": 0.8916666666666667,
+  "hard_continuity_break_frames": 33,
+  "frame_reason_counts": {
+    "lighting_change": 25,
+    "motion": 365,
+    "valid": 3210
+  },
+  "current": {
+    "exploratory_bias_bpm": null,
+    "exploratory_mae_bpm": null,
+    "exploratory_rmse_bpm": null,
+    "exploratory_within_5bpm_fraction": null,
+    "post_20s_valid_output_fraction": 0,
+    "post_20s_valid_windows": 0,
+    "post_20s_windows": 100,
+    "scored_windows": 0,
+    "status_counts": {
+      "insufficient_duration": 119,
+      "low_quality": 1
+    },
+    "valid_output_fraction": 0,
+    "valid_windows": 0,
+    "windows": 120
+  },
+  "baseline_v05": {
+    "exploratory_bias_bpm": null,
+    "exploratory_mae_bpm": null,
+    "exploratory_rmse_bpm": null,
+    "exploratory_within_5bpm_fraction": null,
+    "post_20s_valid_output_fraction": 0,
+    "post_20s_valid_windows": 0,
+    "post_20s_windows": 100,
+    "scored_windows": 0,
+    "status_counts": {
+      "insufficient_duration": 119,
+      "low_quality": 1
+    },
+    "valid_output_fraction": 0,
+    "valid_windows": 0,
+    "windows": 120
+  },
+  "source_hashes_before": {
+    "scripts/replay-video-frames.py": "cb194e48a1215235840f2ed6b2b799bef4b155c7043111c5e38a46f48ee7722c",
+    "src/algorithms/FaceSignalTracker.h": "efe95156e4abe6b8e4ec95857726b71d8fdbb8a80b0b70163abe2bd2b459e696",
+    "src/algorithms/IlluminationGate.h": "72a267c15635eb96d0ce3565615bf85b951ed017cee55879d8b8c1a6e03cd81f",
+    "src/algorithms/OnnxVision.cpp": "e76a565db6af0486340b814011217c98effdb63a0e92c506846d1f910a60314f",
+    "src/algorithms/RoiSignal.cpp": "54d44c7674405ba26b79495a162a9d39228af3ce577c244badbadaaa933163f2",
+    "src/algorithms/SignalAnalyzer.cpp": "271ef0d3804a372f2a7909c1bdc44e0a9dc7bca25fe162370d3539de0a4df06f",
+    "src/capture/CaptureWorker.cpp": "902647a82032bbf335408744ebe761cff342de7e0e5c5fef5bef2837e4127cd3",
+    "tests/PulseBaselineV05.cpp": "79e62a60cb4a2b920cd4a2c0237ba9201021e67e0f2f36cbf205e67e1f074064",
+    "tests/ReplayCheck.cpp": "26970b196172114170c71bf60a3942a8762f112ce4a6f1945d613bb122010697"
+  },
+  "source_hashes_after": {
+    "scripts/replay-video-frames.py": "cb194e48a1215235840f2ed6b2b799bef4b155c7043111c5e38a46f48ee7722c",
+    "src/algorithms/FaceSignalTracker.h": "efe95156e4abe6b8e4ec95857726b71d8fdbb8a80b0b70163abe2bd2b459e696",
+    "src/algorithms/IlluminationGate.h": "72a267c15635eb96d0ce3565615bf85b951ed017cee55879d8b8c1a6e03cd81f",
+    "src/algorithms/OnnxVision.cpp": "e76a565db6af0486340b814011217c98effdb63a0e92c506846d1f910a60314f",
+    "src/algorithms/RoiSignal.cpp": "54d44c7674405ba26b79495a162a9d39228af3ce577c244badbadaaa933163f2",
+    "src/algorithms/SignalAnalyzer.cpp": "271ef0d3804a372f2a7909c1bdc44e0a9dc7bca25fe162370d3539de0a4df06f",
+    "src/capture/CaptureWorker.cpp": "902647a82032bbf335408744ebe761cff342de7e0e5c5fef5bef2837e4127cd3",
+    "tests/PulseBaselineV05.cpp": "79e62a60cb4a2b920cd4a2c0237ba9201021e67e0f2f36cbf205e67e1f074064",
+    "tests/ReplayCheck.cpp": "26970b196172114170c71bf60a3942a8762f112ce4a6f1945d613bb122010697"
+  },
+  "source_unchanged_during_run": true,
+  "executable_sha256": "d156151ce2cc7c9cb233ac1630655e68e0258c84056510161efced668cb16ea3",
+  "video_sha256": "9a835b931b3e012d372c8c62dd729823df2600fee49550ea67aa9b89fa343b8c",
+  "reference_sha256": "6297d496c57d00ce85e9a6bcd27c629d3eb931d4b75df0b329d865cb2199b577"
+}

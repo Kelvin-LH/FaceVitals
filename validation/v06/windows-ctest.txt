@@ -1,0 +1,16 @@
+Internal ctest changing into directory: E:/实时面部情绪识别系统/build/windows
+Test project E:/实时面部情绪识别系统/build/windows
+    Start 1: core
+1/5 Test #1: core .............................   Passed    3.76 sec
+    Start 2: pulse_robustness
+2/5 Test #2: pulse_robustness .................   Passed    1.74 sec
+    Start 3: emotion_robustness
+3/5 Test #3: emotion_robustness ...............   Passed    0.80 sec
+    Start 4: desktop_smoke
+4/5 Test #4: desktop_smoke ....................   Passed    2.17 sec
+    Start 5: desktop_lifecycle
+5/5 Test #5: desktop_lifecycle ................   Passed   35.50 sec
+
+100% tests passed, 0 tests failed out of 5
+
+Total Test time (real) =  43.98 sec

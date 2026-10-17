@@ -1,0 +1,10 @@
+* text=auto
+*.cpp text eol=lf
+*.h text eol=lf
+*.sh text eol=lf
+*.ps1 text eol=lf
+*.cmd text eol=crlf
+models/bootstrap/manifest.json -text
+*.onnx -text
+*.png -text
+*.ico -text

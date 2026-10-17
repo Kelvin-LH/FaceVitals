@@ -1,0 +1,17 @@
+********* Start testing of TestPulseRobustness *********
+Config: Using QtTest library 6.10.0, Qt 6.10.0 (x86_64-little_endian-llp64 shared (dynamic) release build; by MSVC 2022), windows 11
+PASS   : TestPulseRobustness::initTestCase()
+QINFO  : TestPulseRobustness::frozenComparison() {"baseline_valid":100,"cases":200,"current_mae_bpm":0.03320000000000107,"current_max_error_bpm":0.0700000000000216,"current_valid":200}
+PASS   : TestPulseRobustness::frozenComparison()
+PASS   : TestPulseRobustness::realBoundariesAndCoverage()
+QINFO  : TestPulseRobustness::rejectNoPulseAndNoise() No-pulse simulation 400 cases; baseline false outputs: 1 current: 0
+PASS   : TestPulseRobustness::rejectNoPulseAndNoise()
+QINFO  : TestPulseRobustness::rejectChangingFrequency() Frequency-change case 17 baseline "valid" current "low_quality"
+QINFO  : TestPulseRobustness::rejectChangingFrequency() Frequency-change case 42 baseline "valid" current "low_quality"
+QINFO  : TestPulseRobustness::rejectChangingFrequency() Frequency-change case 93 baseline "valid" current "low_quality"
+PASS   : TestPulseRobustness::rejectChangingFrequency()
+PASS   : TestPulseRobustness::gradualFrequencyChange()
+PASS   : TestPulseRobustness::progressAndTimestampValidation()
+PASS   : TestPulseRobustness::cleanupTestCase()
+Totals: 8 passed, 0 failed, 0 skipped, 0 blacklisted, 1727ms
+********* Finished testing of TestPulseRobustness *********

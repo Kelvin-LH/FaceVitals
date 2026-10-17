@@ -1,0 +1,16 @@
+{
+  "version": "0.6.0",
+  "status": "research_preview",
+  "date": "2026-10-17",
+  "windows_ctest_suites_passed": 5,
+  "package_start_without_development_path": true,
+  "package_model_load": true,
+  "zip_extract_all_hashes_match": true,
+  "extracted_package_smoke_exit": 0,
+  "human_hr_accuracy": "unverified",
+  "sustained_hr_availability_acceptance": "partial",
+  "emotion_population_accuracy": "unverified",
+  "bp_and_spo2": "unsupported",
+  "linux_v06": "not retested",
+  "product_exe_sha256": "a044fb67529daeb5fbe745e8d8c5a3bca2289371175e0a2eabc7f54ad96060a9"
+}

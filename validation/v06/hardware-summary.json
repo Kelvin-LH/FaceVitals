@@ -1,0 +1,72 @@
+{
+  "scope": "single ordinary RGB camera; availability only; no synchronized reference or emotion labels; framing changed between runs; not a controlled before/after accuracy comparison",
+  "privacy": "aggregated counts only; personal rates and frame geometry excluded",
+  "runs": [
+    {
+      "local_record": "camera-v06-positioned-before.json",
+      "duration_seconds": 70.0,
+      "frames": 2085,
+      "valid_signal_frames": 172,
+      "continuity_break_frames": 1913,
+      "analysis_status_counts": {
+        "insufficient_duration": 70
+      },
+      "emotion_status_counts": {
+        "uncertain": 22,
+        "valid": 7
+      },
+      "capture_failed": false,
+      "recordings": 0
+    },
+    {
+      "local_record": "camera-v06-positioned-after.json",
+      "duration_seconds": 70.0,
+      "frames": 2084,
+      "valid_signal_frames": 2050,
+      "continuity_break_frames": 2,
+      "analysis_status_counts": {
+        "insufficient_duration": 48,
+        "low_quality": 21
+      },
+      "emotion_status_counts": {
+        "uncertain": 326,
+        "valid": 14
+      },
+      "capture_failed": false,
+      "recordings": 0
+    },
+    {
+      "local_record": "camera-v06-smoothed.json",
+      "duration_seconds": 70.0,
+      "frames": 2084,
+      "valid_signal_frames": 2064,
+      "continuity_break_frames": 0,
+      "analysis_status_counts": {
+        "insufficient_duration": 20,
+        "low_quality": 41,
+        "valid": 8
+      },
+      "emotion_status_counts": {
+        "uncertain": 329,
+        "valid": 14
+      },
+      "capture_failed": false,
+      "recordings": 0
+    },
+    {
+      "local_record": "camera-v06-bandpass.json",
+      "duration_seconds": 70.0,
+      "frames": 2085,
+      "valid_signal_frames": 52,
+      "continuity_break_frames": 1975,
+      "analysis_status_counts": {
+        "insufficient_duration": 70
+      },
+      "emotion_status_counts": {
+        "uncertain": 23
+      },
+      "capture_failed": false,
+      "recordings": 0
+    }
+  ]
+}

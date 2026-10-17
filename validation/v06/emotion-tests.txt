@@ -1,0 +1,12 @@
+********* Start testing of TestEmotionRobustness *********
+Config: Using QtTest library 6.10.0, Qt 6.10.0 (x86_64-little_endian-llp64 shared (dynamic) release build; by MSVC 2022), windows 11
+PASS   : TestEmotionRobustness::initTestCase()
+QINFO  : TestEmotionRobustness::aspectTranslationAndLight() {"minimum_box_consistency_iou":0.8722917473333375,"minimum_happy_score":0.9981988731547604,"scope":"single-public-image regression; not population accuracy","transformation_cases":18}
+PASS   : TestEmotionRobustness::aspectTranslationAndLight()
+PASS   : TestEmotionRobustness::tiltedFace()
+PASS   : TestEmotionRobustness::poorImagesAndEmptyFrame()
+PASS   : TestEmotionRobustness::cropBoundaries()
+PASS   : TestEmotionRobustness::smootherInvalidOutputAndRecovery()
+PASS   : TestEmotionRobustness::cleanupTestCase()
+Totals: 7 passed, 0 failed, 0 skipped, 0 blacklisted, 915ms
+********* Finished testing of TestEmotionRobustness *********

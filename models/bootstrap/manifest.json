@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "id": "hsemotion-b0-afew-1",
+  "task": "emotion",
+  "format": "onnx-emotion-v1",
+  "file": "emotion.onnx",
+  "sha256": "7aa2ea31c1311f4f8aa9d3fdb085d418dd4e7a48c4b9ed41df8c044f91d0213f",
+  "input_size": 224,
+  "preprocess": "rgb-imagenet-v1",
+  "labels": ["愤怒", "轻蔑", "厌恶", "恐惧", "高兴", "中性", "悲伤", "惊讶"],
+  "source": "https://github.com/sb-ai-lab/EmotiEffLib",
+  "license": "Repository Apache-2.0; review training data and weight rights before commercial use",
+  "validation": "Upstream pretrained; local clinical and population performance not validated"
+}
