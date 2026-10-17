@@ -1,0 +1,27 @@
+{
+  "version": "0.6.0",
+  "date": "2026-10-17",
+  "status": "research_preview",
+  "repository": "https://github.com/Kelvin-LH/FaceVitals",
+  "release": "https://github.com/Kelvin-LH/FaceVitals/releases/tag/v0.6.0",
+  "assets": [
+    {
+      "name": "FaceVitals-0.6.0-windows-x64.zip",
+      "bytes": 50271860,
+      "sha256": "38a8f850e88907ce9ca0ae85705c30214e4d1d7adb4de2a942ed49aee18e3484"
+    },
+    {
+      "name": "FaceVitals-0.6.0-source.zip",
+      "bytes": 15750982,
+      "sha256": "3418f4ba58d72128b054a24b73ac4a8e8a2cf3e61c9ec8c40b3867560bbc73ae"
+    }
+  ],
+  "acceptance": "partial; independent physiological/emotion accuracy unverified",
+  "remote_digest_verification": "all 3 assets matched",
+  "anonymous_repo_access": "public",
+  "source_commit": "de5c76b73fffadfa0daeca5eb4658107f7de94f1",
+  "anonymous_public_download_sha256_verified": true,
+  "public_zip_payload_files_verified": 78,
+  "public_download_smoke_exit": 0,
+  "receipt_scope": "postpublication evidence; release archives remain fixed at tagged commit"
+}

@@ -25,3 +25,5 @@
 4. 普通 RGB 摄像头下血压和血氧没有经过校准验证的测量链路，保持 unsupported。不能用心率、肤色或正常值模板代填。
 
 Windows CTest：5/5 测试组通过，见 windows-ctest.txt。发布包在移除开发环境 PATH 后启动和模型初始化成功；ZIP 解压后逐文件哈希全部匹配，解压版启动通过，见 delivery-check.json。Linux 0.6 尚未复测，本次只发布 Windows 二进制与跨平台源码。
+
+公开发布后的核验收据见 [release-receipt.json](release-receipt.json)，审计结论见 [EXPERIMENT_AUDIT.md](EXPERIMENT_AUDIT.md)。该补充文档不改变 v0.6.0 标签下的源代码与附件。

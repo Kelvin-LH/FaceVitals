@@ -1,0 +1,42 @@
+{
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "overall_verdict": "warn",
+  "integrity_status": "warn",
+  "reason_code": "acceptance_partial_real_gt_unscored",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "agent_id": "/root/release_integrity_audit",
+  "reviewer_model_requested": "gpt-5.6-sol",
+  "reviewer_model_self_report": "codex-gpt-6",
+  "reviewer_reasoning_requested": "ultra",
+  "date": "2026-10-17",
+  "source_commit": "de5c76b73fffadfa0daeca5eb4658107f7de94f1",
+  "checks": {
+    "gt_provenance": "PASS",
+    "score_normalization": "PASS",
+    "result_existence_and_numbers": "PASS",
+    "dead_code": "PASS",
+    "scope": "WARN",
+    "evaluation_type_classification": "PASS",
+    "physiology_claim_boundary": "PASS",
+    "public_summary_privacy": "PASS",
+    "substantial_code_defects": "none found in audited scope"
+  },
+  "executor_post_audit_checks": {
+    "anonymous_public_download": "PASS",
+    "all_78_payload_hashes": "PASS",
+    "public_download_smoke_exit": 0
+  },
+  "audited_input_hashes": {
+    "README.md": "sha256:b5478afa16df34e5b1372c3d5fc810781f82daf41178cba331a094c57080d0f3",
+    "validation/v06/README.md": "sha256:40afe906ddfbf736cf4c7606aeec32528d24b7a600fafd3d3489faee660bf904",
+    "validation/v06/hardware-summary.json": "sha256:5888e815768849bffeca05d1a7a5bdd6cfc66f972c7a9e05b6fd2ba25c82a878",
+    "validation/v06/replay-summary.json": "sha256:116f273c2599dec31f8c20ef7ed20e689e08b0d50e81b272ecf32edae6daadf0",
+    "validation/v06/pulse-tests.txt": "sha256:17d7230348e3eeaaacceded919bc5ebe51a0603adb3ab1af464db3827f937d42",
+    "validation/v06/emotion-tests.txt": "sha256:2f5110b18671cdbe863e546e135e1a124b41caae18d8f154551d9bebc1a23722",
+    "validation/v06/windows-ctest.txt": "sha256:98f92fbfed36601b17ce53d637e4f8059259efac774f6d97b7d39bbacc3a98d3",
+    "validation/v06/delivery-check.json": "sha256:5d05490616d55383259fbcbd201064cccf7c4187435b1098f18baf6c53154c19",
+    "dist/FaceVitals-0.6.0-windows-x64.zip": "sha256:38a8f850e88907ce9ca0ae85705c30214e4d1d7adb4de2a942ed49aee18e3484"
+  }
+}
